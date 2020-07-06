@@ -1,0 +1,115 @@
+CREATE DATABASE IF NOT EXISTS speechPerception;
+
+use speechPerception;
+
+CREATE TABLE IF NOT EXISTS participant(
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  studentID VARCHAR(255) NOT NULL,
+  class VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS pInformation(
+  givenID VARCHAR(255) UNIQUE PRIMARY KEY,
+  pAge INT UNSIGNED NOT NULL,
+  pGender TINYINT NOT NULL,
+  pHand TINYINT NOT NULL,
+  pSpokenLang TINYINT NOT NULL,
+  pHearing TINYINT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS pHandedness(
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  gID VARCHAR(255) UNIQUE NOT NULL,
+  wLeft INT NOT NULL,
+  wRight INT NOT NULL,
+  dLeft INT NOT NULL,
+  dRight INT NOT NULL,
+  throwLeft INT NOT NULL,
+  throwRight INT NOT NULL,
+  sLeft INT NOT NULL,
+  sRight INT NOT NULL,
+  tbLeft INT NOT NULL,
+  tbRight INT NOT NULL,
+  kLeft INT NOT NULL,
+  kRight INT NOT NULL,
+  spoonLeft INT NOT NULL,
+  spoonRight INT NOT NULL,
+  bLeft INT NOT NULL,
+  bRight INT NOT NULL,
+  mLeft INT NOT NULL,
+  mRight INT NOT NULL,
+  lLeft INT NOT NULL,
+  lRight INT NOT NULL,
+  FOREIGN KEY (gID) REFERENCES pInformation(givenID)
+);
+
+-- CREATE TABLE IF NOT EXISTS pResponse(
+--   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--   givenID VARCHAR(255) NOT NULL,
+--   track1 VARCHAR(255) NOT NULL,
+--   userAnswer VARCHAR(255),
+--   FOREIGN KEY (givenID) REFERENCES pInformation(givenID)
+-- );
+
+CREATE TABLE IF NOT EXISTS pResponse(
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  givenID VARCHAR(255) NOT NULL,
+  track1 VARCHAR(255) NOT NULL,
+  track2 VARCHAR(255) NOT NULL,
+  track3 VARCHAR(255) NOT NULL,
+  track4 VARCHAR(255) NOT NULL,
+  track5 VARCHAR(255) NOT NULL,
+  track6 VARCHAR(255) NOT NULL,
+  track7 VARCHAR(255) NOT NULL,
+  track8 VARCHAR(255) NOT NULL,
+  track9 VARCHAR(255) NOT NULL,
+  track10 VARCHAR(255) NOT NULL,
+  track11 VARCHAR(255) NOT NULL,
+  track12 VARCHAR(255) NOT NULL,
+  track13 VARCHAR(255) NOT NULL,
+  track14 VARCHAR(255) NOT NULL,
+  track15 VARCHAR(255) NOT NULL,
+  track16 VARCHAR(255) NOT NULL,
+  track17 VARCHAR(255) NOT NULL,
+  track18 VARCHAR(255) NOT NULL,
+  track19 VARCHAR(255) NOT NULL,
+  track20 VARCHAR(255) NOT NULL,
+  track21 VARCHAR(255) NOT NULL,
+  track22 VARCHAR(255) NOT NULL,
+  track23 VARCHAR(255) NOT NULL,
+  track24 VARCHAR(255) NOT NULL,
+  track25 VARCHAR(255) NOT NULL,
+  track26 VARCHAR(255) NOT NULL,
+  track27 VARCHAR(255) NOT NULL,
+  track28 VARCHAR(255) NOT NULL,
+  userAnswer1 VARCHAR(255),
+  userAnswer2 VARCHAR(255),
+  userAnswer3 VARCHAR(255),
+  userAnswer4 VARCHAR(255),
+  userAnswer5 VARCHAR(255),
+  userAnswer6 VARCHAR(255),
+  userAnswer7 VARCHAR(255),
+  userAnswer8 VARCHAR(255),
+  userAnswer9 VARCHAR(255),
+  userAnswer10 VARCHAR(255),
+  userAnswer11 VARCHAR(255),
+  userAnswer12 VARCHAR(255),
+  userAnswer13 VARCHAR(255),
+  userAnswer14 VARCHAR(255),
+  userAnswer15 VARCHAR(255),
+  userAnswer16 VARCHAR(255),
+  userAnswer17 VARCHAR(255),
+  userAnswer18 VARCHAR(255),
+  userAnswer19 VARCHAR(255),
+  userAnswer20 VARCHAR(255),
+  userAnswer21 VARCHAR(255),
+  userAnswer22 VARCHAR(255),
+  userAnswer23 VARCHAR(255),
+  userAnswer24 VARCHAR(255),
+  userAnswer25 VARCHAR(255),
+  userAnswer26 VARCHAR(255),
+  userAnswer27 VARCHAR(255),
+  userAnswer28 VARCHAR(255),
+  FOREIGN KEY (givenID) REFERENCES pInformation(givenID)
+);
