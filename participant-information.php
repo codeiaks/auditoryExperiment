@@ -22,7 +22,7 @@
           <input type="number" class="form-control" id="pAge" name="pAge" min="18" max="65" value="18">
         </div>
         <div class="form-group">
-          <label for="pGender">Gender</label>
+          <label for="pGender">Sex at Birth</label>
           <select class="form-control" id="pGender" aria-describedby="participantGender" name="pGender">
             <option selected disabled>Choose Option</option>
             <option value="1">Male</option>
