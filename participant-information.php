@@ -23,7 +23,7 @@
         </div>
         <div class="form-group">
           <label for="pGender">Sex at Birth</label>
-          <select class="form-control" id="pGender" aria-describedby="participantGender" name="pGender">
+          <select class="form-control" id="pGender" aria-describedby="participantGender" name="pGender" required>
             <option selected disabled>Choose Option</option>
             <option value="1">Male</option>
             <option value="2">Female</option>
@@ -34,7 +34,7 @@
         </div>
         <div class="form-group">
           <label for="pHandedness">Handedness</label>
-          <select class="form-control" id="pHandedness" name="pHandedness">
+          <select class="form-control" id="pHandedness" name="pHandedness" required>
             <option selected disabled>Choose Option</option>
             <option value="1">Left</option>
             <option value="2">Right</option>
@@ -42,7 +42,7 @@
         </div>
         <div class="form-group">
           <label for="spokenLang">Is English your first language?</label>
-          <select class="form-control" id="spokenLang" name="spokenLang">
+          <select class="form-control" id="spokenLang" name="spokenLang" required>
             <option selected disabled>Choose Option</option>
             <option value="1">Yes</option>
             <option value="2">No</option>
@@ -50,7 +50,7 @@
         </div>
         <div class="form-group">
           <label for="hearingProblems">Are you aware of any hearing problems?</label>
-          <select class="form-control" id="hearingProblems" name="hearingProblems">
+          <select class="form-control" id="hearingProblems" name="hearingProblems" required>
             <option selected disabled>Choose Option</option>
             <option value="1">Yes</option>
             <option value="2">No</option>
@@ -58,7 +58,7 @@
         </div>
         <div class="form-group">
           <label for="classCredits">Are you participating for course credit?</label>
-          <select class="form-control" id="classCredits" name="classCredits" onchange="showMore()">
+          <select class="form-control" id="classCredits" name="classCredits" onchange="showMore()" required>
             <option selected disabled>Choose Option</option>
             <option value="1">Yes</option>
             <option value="2">No</option>
@@ -92,6 +92,9 @@
     var x = document.getElementById("classCredits").value;
     if (x == "1"){
       document.getElementById("courseInfo").style.display = "block";
+      document.getElementById("pName").required = true;
+      document.getElementById("pStudentID").required = true;
+      document.getElementById("pClass").required = true;
     }else{
       document.getElementById("courseInfo").style.display = "none";
     }
