@@ -92,7 +92,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[0];?>" name="<?php echo $userAnsNum[0];?>"></textarea><br>
         <p style="text-align: center;"> 1/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play1">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next1" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next1" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="withdraw1">Withdraw</button>
         <input type="hidden" id="t1" value="<?php echo $_SESSION["tracks"][0]; ?>">
       </div>
@@ -100,7 +101,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[1];?>" name="<?php echo $userAnsNum[1];?>"></textarea><br>
         <p style="text-align: center;"> 2/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play2">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next2" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next2" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="withdraw2">Withdraw</button>
         <input type="hidden" id="t2" value="<?php echo $_SESSION["tracks"][1]; ?>">
       </div>
@@ -108,7 +110,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[2];?>" name="<?php echo $userAnsNum[2];?>"></textarea><br>
         <p style="text-align: center;"> 3/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play3">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next3" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next3" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="withdraw3">Withdraw</button>
         <input type="hidden" id="t3" value="<?php echo $_SESSION["tracks"][2]; ?>">
       </div>
@@ -116,7 +119,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[3];?>" name="<?php echo $userAnsNum[3];?>"></textarea><br>
         <p style="text-align: center;"> 4/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play4">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next4" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next4" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="withdraw4">Withdraw</button>
         <input type="hidden" id="t4" value="<?php echo $_SESSION["tracks"][3]; ?>">
       </div>
@@ -124,7 +128,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[4];?>" name="<?php echo $userAnsNum[4];?>"></textarea><br>
         <p style="text-align: center;"> 5/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play5">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next5" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next5" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw5">Withdraw</button>
         <input type="hidden" id="t5" value="<?php echo $_SESSION["tracks"][4]; ?>">
       </div>
@@ -132,7 +137,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[5];?>" name="<?php echo $userAnsNum[5];?>"></textarea><br>
         <p style="text-align: center;"> 6/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play6">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next6" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next6" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw6">Withdraw</button>
         <input type="hidden" id="t6" value="<?php echo $_SESSION["tracks"][5]; ?>">
       </div>
@@ -140,7 +146,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[6];?>" name="<?php echo $userAnsNum[6];?>"></textarea><br>
         <p style="text-align: center;"> 7/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play7">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next7" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next7" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw7">Withdraw</button>
         <input type="hidden" id="t7" value="<?php echo $_SESSION["tracks"][6]; ?>">
       </div>
@@ -148,7 +155,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[7];?>" name="<?php echo $userAnsNum[7];?>"></textarea><br>
         <p style="text-align: center;"> 8/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play8">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next8" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next8" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw8">Withdraw</button>
         <input type="hidden" id="t8" value="<?php echo $_SESSION["tracks"][7]; ?>">
       </div>
@@ -156,7 +164,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[8];?>" name="<?php echo $userAnsNum[8];?>"></textarea><br>
         <p style="text-align: center;"> 9/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play9">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next9" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next9" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw9">Withdraw</button>
         <input type="hidden" id="t9" value="<?php echo $_SESSION["tracks"][8]; ?>">
       </div>
@@ -164,7 +173,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[9]; ?>" name="<?php echo $userAnsNum[9]; ?>"></textarea><br>
         <p style="text-align: center;"> 10/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play10">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next10" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next10" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw10">Withdraw</button>
         <input type="hidden" id="t10" value="<?php echo $_SESSION["tracks"][9]; ?>">
       </div>
@@ -172,7 +182,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[10]; ?>" name="<?php echo $userAnsNum[10]; ?>"></textarea><br>
         <p style="text-align: center;"> 11/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play11">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next11" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next11" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw11">Withdraw</button>
         <input type="hidden" id="t11" value="<?php echo $_SESSION["tracks"][10]; ?>">
       </div>
@@ -180,7 +191,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[11]; ?>" name="<?php echo $userAnsNum[11]; ?>"></textarea><br>
         <p style="text-align: center;"> 12/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play12">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next12" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next12" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw12">Withdraw</button>
         <input type="hidden" id="t12" value="<?php echo $_SESSION["tracks"][11]; ?>">
       </div>
@@ -188,7 +200,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[12]; ?>" name="<?php echo $userAnsNum[12]; ?>"></textarea><br>
         <p style="text-align: center;"> 13/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play13">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next13" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next13" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw13">Withdraw</button>
         <input type="hidden" id="t13" value="<?php echo $_SESSION["tracks"][12]; ?>">
       </div>
@@ -196,7 +209,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[13]; ?>" name="<?php echo $userAnsNum[13]; ?>"></textarea><br>
         <p style="text-align: center;"> 14/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play14">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next14" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next14" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw14">Withdraw</button>
         <input type="hidden" id="t14" value="<?php echo $_SESSION["tracks"][13]; ?>">
       </div>
@@ -204,7 +218,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[14]; ?>" name="<?php echo $userAnsNum[14]; ?>"></textarea><br>
         <p style="text-align: center;"> 15/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play15">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next15" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next15" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw15">Withdraw</button>
         <input type="hidden" id="t15" value="<?php echo $_SESSION["tracks"][14]; ?>">
       </div>
@@ -212,7 +227,7 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[15]; ?>" name="<?php echo $userAnsNum[15]; ?>"></textarea><br>
         <p style="text-align: center;"> 16/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play16">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next16" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next16" disabled>Next</button><br><br><br><br>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw16">Withdraw</button>
         <input type="hidden" id="t16" value="<?php echo $_SESSION["tracks"][15]; ?>">
       </div>
@@ -220,7 +235,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[16]; ?>" name="<?php echo $userAnsNum[16]; ?>"></textarea><br>
         <p style="text-align: center;"> 17/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play17">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next17" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next17" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw17">Withdraw</button>
         <input type="hidden" id="t17" value="<?php echo $_SESSION["tracks"][16]; ?>">
       </div>
@@ -228,7 +244,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[17]; ?>" name="<?php echo $userAnsNum[17]; ?>"></textarea><br>
         <p style="text-align: center;"> 18/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play18">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next18" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next18" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw18">Withdraw</button>
         <input type="hidden" id="t18" value="<?php echo $_SESSION["tracks"][17]; ?>">
       </div>
@@ -236,7 +253,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[18]; ?>" name="<?php echo $userAnsNum[18]; ?>"></textarea><br>
         <p style="text-align: center;"> 19/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play19">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next19" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next19" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw19">Withdraw</button>
         <input type="hidden" id="t19" value="<?php echo $_SESSION["tracks"][18]; ?>">
       </div>
@@ -244,7 +262,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[19]; ?>" name="<?php echo $userAnsNum[19]; ?>"></textarea><br>
         <p style="text-align: center;"> 20/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play20">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next20" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next20" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw20">Withdraw</button>
         <input type="hidden" id="t20" value="<?php echo $_SESSION["tracks"][19]; ?>">
       </div>
@@ -252,7 +271,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[20]; ?>" name="<?php echo $userAnsNum[20]; ?>"></textarea><br>
         <p style="text-align: center;"> 21/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play21">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next21" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next21" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw21">Withdraw</button>
         <input type="hidden" id="t21" value="<?php echo $_SESSION["tracks"][20]; ?>">
       </div>
@@ -260,7 +280,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[21]; ?>" name="<?php echo $userAnsNum[21]; ?>"></textarea><br>
         <p style="text-align: center;"> 22/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play22">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next22" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next22" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw22">Withdraw</button>
         <input type="hidden" id="t22" value="<?php echo $_SESSION["tracks"][21]; ?>">
       </div>
@@ -268,7 +289,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[22]; ?>" name="<?php echo $userAnsNum[22]; ?>"></textarea><br>
         <p style="text-align: center;"> 23/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play23">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next23" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next23" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw23">Withdraw</button>
         <input type="hidden" id="t23" value="<?php echo $_SESSION["tracks"][22]; ?>">
       </div>
@@ -276,7 +298,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[23]; ?>" name="<?php echo $userAnsNum[23]; ?>"></textarea><br>
         <p style="text-align: center;"> 24/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play24">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next24" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next24" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw24">Withdraw</button>
         <input type="hidden" id="t24" value="<?php echo $_SESSION["tracks"][23]; ?>">
       </div>
@@ -284,7 +307,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[24]; ?>" name="<?php echo $userAnsNum[24]; ?>"></textarea><br>
         <p style="text-align: center;"> 25/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play25">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next25" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next25" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw25">Withdraw</button>
         <input type="hidden" id="t25" value="<?php echo $_SESSION["tracks"][24]; ?>">
       </div>
@@ -292,7 +316,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[25]; ?>" name="<?php echo $userAnsNum[25]; ?>"></textarea><br>
         <p style="text-align: center;"> 26/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play26">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next26" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next26" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw26">Withdraw</button>
         <input type="hidden" id="t26" value="<?php echo $_SESSION["tracks"][25]; ?>">
       </div>
@@ -300,7 +325,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[26]; ?>" name="<?php echo $userAnsNum[26]; ?>"></textarea><br>
         <p style="text-align: center;"> 27/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play27">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next27" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next27" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="witdraw27">Withdraw</button>
         <input type="hidden" id="t27" value="<?php echo $_SESSION["tracks"][26]; ?>">
       </div>
@@ -308,7 +334,8 @@
         <textarea rows="3" class="btn-block" id="<?php echo $userAnsNum[27]; ?>" name="<?php echo $userAnsNum[27]; ?>"></textarea><br>
         <p style="text-align: center;"> 28/28 </p>
         <button class="btn btn-danger btn-lg btn-block" id="play28">Play</button>
-        <button class="btn btn-danger btn-lg btn-block" id="next28" disabled>Next</button>
+        <button class="btn btn-danger btn-lg btn-block" id="next28" disabled>Next</button><br><br><br><br>
+        <small><b>Quit and withdraw from the experiment.</b></small>
         <button class="btn btn-danger btn-lg btn-block" id="returnHome">Withdraw</button>
         <input type="hidden" id="t28" value="<?php echo $_SESSION["tracks"][27]; ?>">
       </div>
