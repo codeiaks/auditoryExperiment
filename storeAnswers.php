@@ -43,34 +43,7 @@ $a25 = $_SESSION["answers"]["answers25"];
 $a26 = $_SESSION["answers"]["answers26"];
 $a27 = $_SESSION["answers"]["answers27"];
 $a28 = $_SESSION["answers"]["answers28"];
-echo $a1 . "<br>";
-echo $a2 . "<br>";
-echo $a3 . "<br>";
-echo $a4 . "<br>";
-echo $a5 . "<br>";
-echo $a6 . "<br>";
-echo $a7 . "<br>";
-echo $a8 . "<br>";
-echo $a9 . "<br>";
-echo $a10 . "<br>";
-echo $a11 . "<br>";
-echo $a12 . "<br>";
-echo $a13 . "<br>";
-echo $a14 . "<br>";
-echo $a15 . "<br>";
-echo $a16 . "<br>";
-echo $a17 . "<br>";
-echo $a18 . "<br>";
-echo $a19 . "<br>";
-echo $a20 . "<br>";
-echo $a21 . "<br>";
-echo $a22 . "<br>";
-echo $a23 . "<br>";
-echo $a24 . "<br>";
-echo $a25 . "<br>";
-echo $a26 . "<br>";
-echo $a27 . "<br>";
-echo $a28 . "<br>";
+
 $track1 = substr($_SESSION["tracks"][0], 21);
 $track2 = substr($_SESSION["tracks"][1], 21);
 $track3 = substr($_SESSION["tracks"][2], 21);
@@ -107,6 +80,7 @@ $sql3 = "INSERT INTO pResponse (givenID, track1, track2, track3, track4, track5,
     '$a1','$a2','$a3','$a4','$a5','$a6','$a7','$a8','$a9','$a10','$a11','$a12','$a13','$a14','$a15','$a16','$a17','$a18','$a19','$a20',
     '$a21','$a22','$a23','$a24','$a25','$a26','$a27','$a28')";
  if ($conn->query($sql3) === TRUE){
+   session_destroy();
    header("Location: thank-you.html");
  }else{
   echo $conn->error;
